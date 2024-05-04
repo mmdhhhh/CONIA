@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="10.130.2.158" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="10.130.2.158">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/xia-group-5/CONIA" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mmd@10.142.3.159:19901 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mmd@10.142.3.159:19901 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mmd@10.142.3.159:19901 password (4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/mmd/project/my_attack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westa.seetacloud.com:39944 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/my_project/my_attack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westa.seetacloud.com:49434 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/my_project/my_attack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-8.seetacloud.com:29514 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/my_project/my_attack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-8.seetacloud.com:34910 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/my_project/my_attack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xiahui@10.130.2.222:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/lustre/home/xiahui/mmd/my_project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

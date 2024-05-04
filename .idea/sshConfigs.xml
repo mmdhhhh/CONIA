@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="10.130.2.158" id="360c6322-e2af-42e8-bd22-397d4663a52e" keyPath="D:\学习\研究生\项目准备\id_rsa" port="20158" nameFormat="DESCRIPTIVE" username="xia-group-5" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
