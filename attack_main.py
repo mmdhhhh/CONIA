@@ -42,6 +42,7 @@ parser.add_argument('--train_vict', action='store_true', help='Whether to train 
 parser.add_argument('--data_split', action='store_true', help='Split data')
 parser.add_argument('--m', type=int, default=5,help='Gradient Computation Times')
 parser.add_argument('--r', type=int, default=3,help='Control Factor')
+parser.add_argument('--epoch_sec', type=int, default=901,help='Feature generator train epoch')
 parser.add_argument('--use_pre', action='store_false', help='Predicted label or true label')
 
 args = parser.parse_args()
@@ -55,11 +56,9 @@ else:
     # args.ceta = args.ceta
 victim_model_='gcn'
 
-
 base_dir = 'dataset'
 save_surrmodel_path = 'surrogate_model/'
 save_victmodel_path = 'victim_model/'
-
 save_attack_dir = "Graph_attacked/"
 file_adj_attack = save_attack_dir + args.dataset + "_adj_attacked.npz"
 if args.feature_type:
@@ -98,15 +97,10 @@ n_edge_max = 4
 epoch_update_features = 600
 epoch_select_edges = 300
 
-if args.feature_type:
-    lbth = 3
-    ceta = args.ceta
-    epoch_sec = 901
-else:
-    lbth = 2
-    ceta = args.ceta
-    epoch_sec = 901
 
+lbth = args.r
+ceta = args.ceta
+epoch_sec = args.epoch_sec
 if injection_ratio <= 0.01:
     lbth += 1
 
