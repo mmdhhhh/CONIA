@@ -19,5 +19,5 @@ torch_sparse==0.6.14
 tqdm==4.64.1
 
 # RUN CODE
-please simple run the following
+## please simple run the following
 python attack_main.py --dataset cora --m 5 --r 3 --ceta 1 --injection_ratio 0.03 --epoch_sec 700
