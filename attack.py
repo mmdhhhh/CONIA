@@ -460,7 +460,7 @@ class CONIA:
             for i in range(curr_inj):
                 subset, edge_index_, mapping, edge_mask = utils.k_hop_subgraph(inj_nodes_relocation[i].item(), 1, cur_edge_index,
                                                                                relabel_nodes=True,
-                                                                               num_nodes=inj_num + original_num,
+                                                                               num_nodes=curr_inj + original_num,
                                                                                directed=False)
                 all_subset.append(subset)
                 all_edge_index.append(edge_index_)
